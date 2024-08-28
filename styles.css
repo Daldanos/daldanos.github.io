@@ -58,13 +58,13 @@ nav ul li a:hover {
     font-size: 2.5em; /* Reducir tamaño del título */
     margin: 0;
     font-family: 'Lulo Clean', sans-serif; /* Fuente Lulo Clean para títulos */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para el texto */
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9); /* Sombra más intensa para el texto */
 }
 
 .header-content p {
     font-size: 1.2em;
     margin: 10px 0;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para el texto */
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9); /* Sombra más intensa para el texto */
 }
 
 /* Estilos para todas las secciones */
@@ -76,8 +76,8 @@ section {
     border-radius: 10px; /* Bordes redondeados */
     max-width: 800px; /* Limitar ancho de sección */
     margin: 40px auto; /* Centrar sección */
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para resaltar el contenido */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para el texto */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente más oscuro */
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9); /* Sombra más intensa para el texto */
 }
 
 /* Estilos específicos para habilidades */
@@ -93,14 +93,14 @@ h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
     font-family: 'Lulo Clean', sans-serif; /* Fuente Lulo Clean para subtítulos */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para el texto */
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9); /* Sombra más intensa para el texto */
 }
 
 /* Estilo para enlaces de la sección de contacto */
 #contacto a {
     color: #ffffff; /* Blanco */
     text-decoration: none; /* Quitar subrayado */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para el texto */
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9); /* Sombra más intensa para el texto */
 }
 
 #contacto a:hover {
