@@ -4,7 +4,7 @@ body, html {
     padding: 0;
     width: 100%;
     height: 100%;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto Mono', monospace; /* Fuente moderna y cuadrada */
     color: #ffffff;
     background-image: url('background.jpg'); /* Un único fondo para todo el sitio */
     background-size: cover;
@@ -43,6 +43,7 @@ nav ul li a {
     border: 1px solid #ffffff;
     border-radius: 5px;
     transition: background-color 0.3s;
+    font-family: 'Roboto Mono', monospace; /* Fuente cuadrada para enlaces */
 }
 
 nav ul li a:hover {
@@ -56,11 +57,14 @@ nav ul li a:hover {
 .header-content h1 {
     font-size: 2.5em; /* Reducir tamaño del título */
     margin: 0;
+    font-family: 'Lulo Clean', sans-serif; /* Fuente Lulo Clean para títulos */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para el texto */
 }
 
 .header-content p {
     font-size: 1.2em;
     margin: 10px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para el texto */
 }
 
 /* Estilos para todas las secciones */
@@ -68,11 +72,12 @@ section {
     padding: 60px 20px;
     text-align: center; /* Centrar texto */
     color: #ffffff; /* Asegurar texto blanco */
-    border: 2px solid rgba(255, 255, 255, 0.8); /* Borde para diferenciar del fondo */
+    border: 3px solid rgba(255, 255, 255, 0.9); /* Aumentar el borde */
     border-radius: 10px; /* Bordes redondeados */
     max-width: 800px; /* Limitar ancho de sección */
     margin: 40px auto; /* Centrar sección */
     background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para resaltar el contenido */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para el texto */
 }
 
 /* Estilos específicos para habilidades */
@@ -81,17 +86,21 @@ section {
     text-align: left; /* Alinear texto a la izquierda */
     max-width: 600px; /* Ajustar ancho */
     margin: 0 auto; /* Centrar lista */
+    text-shadow: none; /* Sin sombra para que el texto quede claro */
 }
 
 h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
+    font-family: 'Lulo Clean', sans-serif; /* Fuente Lulo Clean para subtítulos */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para el texto */
 }
 
 /* Estilo para enlaces de la sección de contacto */
 #contacto a {
     color: #ffffff; /* Blanco */
     text-decoration: none; /* Quitar subrayado */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para el texto */
 }
 
 #contacto a:hover {
